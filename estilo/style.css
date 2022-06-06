@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {
+    background-color: var(--cor0);
+}
+
+:root {
+    --cor0: #f0eef8;
+    --cor1: #C1ABFB;
+    --cor2: #8B5FFA;
+    --cor3: #6F4CC7;
+    --cor4: #442F7A;
+    --cor5: #5C4F7E;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
+    
+}
+
+header h1 {
+    text-align: center;
+    
+}
+
+header a {
+    padding: 2px;
+    margin: 2px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+    margin: 2px solid;
+    background-color: var(--cor1);
+    border-radius: 2px;
+    
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+    width: 800px;
+    max-width: 100%;
+    text-align: justify;
+    
+}
+
+footer {
+    background-color: var(--cor5);
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+
+
