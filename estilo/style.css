@@ -11,6 +11,8 @@ body {
     --cor3: #6F4CC7;
     --cor4: #442F7A;
     --cor5: #5C4F7E;
+
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 * {
@@ -21,12 +23,13 @@ body {
 header{
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
     padding: 20px;
-    
+    font-family: var(--fonte1);
     
 }
 
 header > h1 {
     text-align: center;
+    font-variant: small-caps;
 }
 
 image {
